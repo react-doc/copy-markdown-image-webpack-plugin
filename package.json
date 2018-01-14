@@ -5,7 +5,7 @@
   "main": "index.js",
   "keywords": [
     "webpack",
-    "webpack-pluginn"
+    "webpack-plugin"
   ],
   "author": {
     "name": "Kenny Wang @jaywcjlove"
