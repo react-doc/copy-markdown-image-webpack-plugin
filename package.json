@@ -1,0 +1,21 @@
+{
+  "name": "copy-markdown-image-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Copy Markdown in the picture resources.",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "webpack-pluginn"
+  ],
+  "author": {
+    "name": "Kenny Wang @jaywcjlove"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-doc/copy-markdown-image-webpack-plugin.git"
+  },
+  "dependencies": {
+    "write": "^1.0.3"
+  }
+}
