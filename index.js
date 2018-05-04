@@ -18,7 +18,7 @@ module.exports = class CopyMarkdownImageWebpackPlugin {
     this.option = options || { dir: [], toDir: '' };
   }
   apply(compiler) {
-    compiler.plugin("after-compile", (compilation, callback) => {
+    compiler.hooks.afterCompile.tapAsync(this.constructor.name, (compilation, callback) => {
       compilation.fileDependencies.forEach((filePath) => {
         if (/\.(md|markdown)$/.test(filePath) && this.option.toDir) {
 
